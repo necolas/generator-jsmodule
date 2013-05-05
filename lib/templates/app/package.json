@@ -1,0 +1,13 @@
+{
+  "name": "<%= componentName %>",
+  "description": "",
+  "version": "0.0.0",
+  "main": "<%= componentFileName %>",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  }
+}

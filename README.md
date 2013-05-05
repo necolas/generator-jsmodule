@@ -114,8 +114,8 @@ Produces:
 
 Run `npm test` to trigger the tests.
 
-The client-side JS module uses a local installation of Karma. If you install
-Karma globally, then this is an easy way to automatch your tests during
+The client-side JS module uses a local installation of Karma. If you also
+install Karma globally, then you can easily autowatch your tests during
 development:
 
 ```

@@ -1,0 +1,17 @@
+{
+    "name": "<%= componentName %>",
+    "description": "",
+    "version": "0.0.0",
+    "main": "<%= componentFileName %>",
+    "ignore": [
+        "test",
+        ".jshintrc",
+        ".travis.yml",
+        "CHANGELOG.md",
+        "karma.conf.js",
+        "package.json"
+    ],
+    "devDependencies": {
+        "chai": "*"
+    }
+}

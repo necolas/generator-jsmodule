@@ -19,7 +19,7 @@ describe('Generator test', function () {
 
     beforeEach(function (cb) {
       var deps = ['../../lib/generators/app'];
-      jsmodule = helpers.createGenerator('jsmodule:app', deps, ['myComponent']);
+      jsmodule = helpers.createGenerator('jsmodule:app', deps, ['my-module.js']);
       jsmodule.options['skip-install'] = true;
       cb();
     });
@@ -35,13 +35,13 @@ describe('Generator test', function () {
         '.jshintrc',
         '.travis.yml',
         // config files
-        'package.json',
+        ['package.json', /"name": "my-module.js"/],
         // docs
         'CHANGELOG.md',
         'LICENSE.md',
         'README.md',
         // component
-        'myComponent.js',
+        ['my-module.js', /myModule\(\)/],
         // test
         'test/test.js'
       ];
@@ -58,7 +58,7 @@ describe('Generator test', function () {
 
     beforeEach(function (cb) {
       var deps = ['../../lib/generators/browser'];
-      jsmoduleBrowser = helpers.createGenerator('jsmodule:browser', deps, ['myComponent']);
+      jsmoduleBrowser = helpers.createGenerator('jsmodule:browser', deps, ['my-module.js']);
       jsmoduleBrowser.options['skip-install'] = true;
       cb();
     });
@@ -74,15 +74,15 @@ describe('Generator test', function () {
         '.jshintrc',
         '.travis.yml',
         // config files
-        'bower.json',
-        'karma.conf.js',
-        'package.json',
+        ['bower.json', /"name": "my-module.js"/],
+        ['karma.conf.js', /my-module.js/],
+        ['package.json', /"name": "my-module.js"/],
         // docs
         'CHANGELOG.md',
         'LICENSE.md',
         'README.md',
         // component
-        'myComponent.js',
+        ['my-module.js', /myModule\(\)/],
         // test
         'test/test.js'
       ];

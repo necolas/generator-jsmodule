@@ -16,6 +16,5 @@
     strict: true,
     trailing: true,
     smarttabs: true,
-    white: true,
-    indent: 4
+    white: true
 }

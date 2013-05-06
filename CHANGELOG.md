@@ -1,5 +1,8 @@
 == HEAD
 
+* Do not include an `indent` JSHint setting in the scaffold.
+* Ensure that a version of the module name is safe to use in JavaScript.
+
 == 0.1.1 (May 5, 2013)
 
 * Fix templating error in the generated `karma.conf.js` for `jsmodule:browser`.

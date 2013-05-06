@@ -1,5 +1,5 @@
 {
-  "name": "<%= componentName %>",
+  "name": "<%= moduleName %>",
   "description": "",
   "version": "0.0.0",
   "devDependencies": {

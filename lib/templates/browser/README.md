@@ -1,6 +1,6 @@
-# <%= componentName %>
+# <%= moduleName %>
 
-[![Build Status](https://secure.travis-ci.org/user/<%= componentName %>.png?branch=master)](http://travis-ci.org/user/<%= componentName %>)
+[![Build Status](https://secure.travis-ci.org/user/<%= moduleName %>.png?branch=master)](http://travis-ci.org/user/<%= moduleName %>)
 
 
 ## Installation
@@ -8,7 +8,7 @@
 Install with [Bower](http://bower.io):
 
 ```
-bower install --save <%= componentName %>
+bower install --save <%= moduleName %>
 ```
 
 The component can be used as a Common JS module, an AMD module, or a global.
@@ -16,7 +16,7 @@ The component can be used as a Common JS module, an AMD module, or a global.
 
 ## API
 
-### <%= componentName %>()
+### <%= moduleName %>()
 
 
 ## Testing

@@ -1,6 +1,6 @@
-# <%= componentName %>
+# <%= moduleName %>
 
-[![Build Status](https://secure.travis-ci.org/user/<%= componentName %>.png?branch=master)](http://travis-ci.org/user/<%= componentName %>)
+[![Build Status](https://secure.travis-ci.org/user/<%= moduleName %>.png?branch=master)](http://travis-ci.org/user/<%= moduleName %>)
 
 
 ## Installation
@@ -8,13 +8,13 @@
 Install with npm:
 
 ```
-npm install --save <%= componentName %>
+npm install --save <%= moduleName %>
 ```
 
 
 ## API
 
-### <%= componentName %>()
+### <%= moduleName %>()
 
 
 ## Testing

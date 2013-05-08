@@ -1,5 +1,7 @@
 == HEAD
 
+* Use more flexible UMD-pattern for browser modules.
+
 == 0.1.2 (May 6, 2013)
 
 * Do not include an `indent` JSHint setting in the scaffold.

@@ -1,5 +1,7 @@
 == HEAD
 
+== 0.1.4 (May 16, 2013)
+
 * Fix JSON in project and template `jshintrc` files.
 
 == 0.1.3 (May 10, 2013)

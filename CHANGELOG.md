@@ -1,5 +1,7 @@
 == HEAD
 
+* Fix JSON in project and template `jshintrc` files.
+
 == 0.1.3 (May 10, 2013)
 
 * Use more flexible UMD-pattern for browser modules.

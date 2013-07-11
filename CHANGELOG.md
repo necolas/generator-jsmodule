@@ -1,5 +1,6 @@
 == HEAD
 
+* Update yeoman-generator to 0.12.x.
 * Fix the Bower components install directory path.
 
 == 0.1.4 (May 16, 2013)

@@ -1,6 +1,6 @@
 {
   "name": "generator-jsmodule",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generator for scaffolding out a JavaScript module for Node.js or the browser",
   "keywords": [
     "browser",

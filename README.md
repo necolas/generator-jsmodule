@@ -91,7 +91,7 @@ Produces:
 
 ```
 .
-├── components
+├── bower_components
 │   └── chai
 ├── node_modules
 │   └── karma

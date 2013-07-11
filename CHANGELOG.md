@@ -1,5 +1,7 @@
 == HEAD
 
+* Fix the Bower components install directory path.
+
 == 0.1.4 (May 16, 2013)
 
 * Fix JSON in project and template `jshintrc` files.

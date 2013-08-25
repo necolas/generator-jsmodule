@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.2.0 (August 25, 2013)
+
 * Update to Karma 0.10.x in the generated browser module.
 * Update yeoman-generator to 0.13.x.
 

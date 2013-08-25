@@ -2,6 +2,24 @@
   "name": "generator-jsmodule",
   "version": "0.1.5",
   "description": "Generator for scaffolding out a JavaScript module for Node.js or the browser",
+  "main": "lib/generators/app/index.js",
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "peerDependencies": {
+    "karma": ">=0.8.0",
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
   "keywords": [
     "browser",
     "component",
@@ -14,22 +32,9 @@
   "homepage": "https://github.com/necolas/generator-jsmodule",
   "bugs": "https://github.com/necolas/generator-jsmodule/issues",
   "author": "Nicolas Gallagher",
-  "main": "lib/generators/app/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/necolas/generator-jsmodule.git"
-  },
-  "scripts": {
-    "test": "mocha --no-colors --reporter spec"
-  },
-  "dependencies": {
-    "yeoman-generator": "~0.12.2"
-  },
-  "devDependencies": {
-    "mocha": "~1.8.1"
-  },
-  "engines": {
-    "node": ">=0.8.0"
   },
   "licenses": [
     {

@@ -2,18 +2,17 @@
 
 [![Build Status](https://secure.travis-ci.org/necolas/generator-jsmodule.png?branch=master)](http://travis-ci.org/necolas/generator-jsmodule)
 
-A JavaScript module generator for [Yeoman](http://yeoman.io/).
+A [Yeoman](http://yeoman.io/) generator for JavaScript modules.
 
 
 ## Installation
 
 Install [Node.js](http://nodejs.org/) (which comes with npm).
 
-Then globally install [Bower](http://bower.io/), [Yo](http://yeoman.io/), and
-this generator.
+Then globally install the generator.
 
 ```
-npm install -g bower yo generator-jsmodule
+npm install -g generator-jsmodule
 ```
 
 Make a new directory, and `cd` into it:
@@ -112,14 +111,17 @@ Produces:
 
 ## Running your module's tests
 
-Run `npm test` to trigger the tests.
-
-The client-side JS module uses a local installation of Karma. If you also
-install Karma globally, then you can easily autowatch your tests during
-development:
+The client-side JS package uses a local installation of Karma to run the unit
+tests. You can easily autowatch your tests during development:
 
 ```
 karma start
+```
+
+Or run the unit tests in CI with:
+
+```
+npm test
 ```
 
 For further information about configuring Karma, please refer to the [Karma

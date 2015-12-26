@@ -1,9 +1,10 @@
 # JavaScript module generator
 
+![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
+
 [![Build Status](https://secure.travis-ci.org/necolas/generator-jsmodule.png?branch=master)](http://travis-ci.org/necolas/generator-jsmodule)
 
 A [Yeoman](http://yeoman.io/) generator for JavaScript modules.
-
 
 ## Installation
 

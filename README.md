@@ -78,7 +78,7 @@ Generates the boilerplate you need for a simple client-side JavaScript module.
 
 It setups the [Karma](http://karma-runner.github.io/) test runner to run unit
 tests in the browser. Unit tests rely on the
-[Mocha](http://visionmedia.github.io/mocha/) test framework and the
+[Mocha](http://mochajs.org/) test framework and the
 [Chai](http://chaijs.com/) assertion library.
 
 Example:
